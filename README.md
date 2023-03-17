@@ -36,6 +36,6 @@ Flask>=0.12.2
 ##### Note: you can configure the requirements.txt file to accomodate other libraries
 
 # Usage
-* Build your own image and run it
+ * Build your own image and run it
 [Docker](https://www.docker.com/) is a pre-requirement for this project. You can build the container with:
  
