@@ -3,24 +3,15 @@ This dockerfile gets you started immediately with the necessary installations an
 
 ## The libraries availabe are:
 ### Statistical Toolkit
-numpy>=1.13.3
-scipy>=1.0.0
-pandas>=0.21.0
+[Numpy](https://numpy.org/), [Scipy](https://scipy.org/), [Pandas](https://pandas.pydata.org/)
 ### Visualization
-matplotlib>=2.1.0
-plotly>=2.2.1
-graphviz>=0.8.1
-pydot>=1.2.3
-seaborn>=0.8.1
+[Matplotlib](https://matplotlib.org/), [Plotly](https://plotly.com/), [Graphviz](https://graphviz.org/),[Seaborn](https://seaborn.pydata.org/)
 ### Image
-scikit-image>=0.13.1
-opencv-contrib-python>=3.3.0.10
-opencv-python>=3.3.0.10
+[Scikit-image](https://scikit-image.org/), [OpenCV](https://opencv.org/)
 ### Natural Language Processiong
-nltk>=3.2.5
-gensim>=3.1.0
+[NLTK](https://www.nltk.org/)
 ### Machine Learning
-scikit-learn
+[Scikit-learn](https://scikit-learn.org/stable/)
 ### Deep Learning Libraries
 tensorflow
 Keras>=2.1.1
@@ -36,6 +27,6 @@ Flask>=0.12.2
 ##### Note: you can configure the requirements.txt file to accomodate other libraries
 
 # Usage
- * Build your own image and run it
+ * Build your own image and run it <br />
 [Docker](https://www.docker.com/) is a pre-requirement for this project. You can build the container with:
  
