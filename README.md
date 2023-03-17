@@ -37,5 +37,5 @@ Flask>=0.12.2
 
 # Usage
 * Build your own image and run it
-(https://www.docker.com/)[Docker] is a pre-requirement for this project. You can build the container with:
+[Docker](https://www.docker.com/) is a pre-requirement for this project. You can build the container with:
  
