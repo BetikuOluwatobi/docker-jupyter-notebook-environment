@@ -1,4 +1,4 @@
-# Docker Image Jupyter Notebook Environment
+# Docker Jupyter Notebook Environment
 This dockerfile gets you started immediately with the necessary installations and dependencies required for machine learning workflow in python
 
 ## The libraries availabe are:
