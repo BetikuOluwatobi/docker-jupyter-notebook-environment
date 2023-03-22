@@ -22,6 +22,6 @@ This dockerfile gets you started immediately with the necessary installations an
 
 # Usage
  * Build your own image and run it <br />
-[Docker](https://www.docker.com/) is a pre-requirement for this project. You can build the container with:
+[Docker](https://www.docker.com/) is a pre-requirement for this project. You can build the container with:</ br>
 <code> docker build -f Dockerfile -t jupyter-notebook . </code>
  
