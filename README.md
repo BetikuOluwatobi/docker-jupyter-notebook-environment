@@ -23,5 +23,8 @@ This dockerfile gets you started immediately with the necessary installations an
 # Usage
  * Build your own image and run it <br />
 [Docker](https://www.docker.com/) is a pre-requirement for this project. You can build the container with: <br />
-<code> docker build -f Dockerfile -t jupyter-notebook . </code>
+<code> docker build -f Dockerfile -t jupyter-notebook . </code> <br />
+ * The build process can take some time, but if finished you can run a container named `notebook` with: <br />
+ <code> docker run --name notebook -p 3001:3000 jupyter-notebook </code> <br />
+ and you will have a running Jupyter Notebook instance on <code>http://127.0.0.1:3000/</code>.
  
