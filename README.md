@@ -13,20 +13,15 @@ This dockerfile gets you started immediately with the necessary installations an
 ### Machine Learning
 [Scikit-learn](https://scikit-learn.org/stable/)
 ### Deep Learning Libraries
-tensorflow
-Keras>=2.1.1
-keras-vis>=0.4.1
+[tensorflow](https://www.tensorflow.org/)
 ### Audio Processing Libraries
-pydub
-librosa
-eyed3
-### Video Processing Libraries
-youtube-dl
+[librosa](https://librosa.org/)
 ### REST API
-Flask>=0.12.2
+[Flask](https://flask.palletsprojects.com/)
 ##### Note: you can configure the requirements.txt file to accomodate other libraries
 
 # Usage
  * Build your own image and run it <br />
 [Docker](https://www.docker.com/) is a pre-requirement for this project. You can build the container with:
+<code> docker build -f Dockerfile -t jupyter-notebook . </code>
  
